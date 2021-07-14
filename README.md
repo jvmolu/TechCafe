@@ -1,2 +1,2 @@
 # TechCafe
-The Tech Cafe Project
+Welcome to the Tech Cafe Project
