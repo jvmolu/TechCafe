@@ -2,6 +2,7 @@ import Logo from'./restaurant.png';
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import NavBarButton from './navbarbuttons';
 
 
 function Navbar() {
@@ -31,36 +32,11 @@ function Navbar() {
                     Home
                   </a>
 
-                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Menu
-                  </a>
-                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact Us
-                  </a>
+                  <NavBarButton name = "Menu" full = "True" />
+                  <NavBarButton name = "Contact Us" full = "True" />
+                  <NavBarButton name = "Cart" full = "True" />
+                  <NavBarButton name = "Your Account" full = "True" />
                   
-                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Cart
-                  </a>
-
-                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Your Account
-                  </a>
                 </div>
               </div>
             </div>
@@ -131,34 +107,10 @@ function Navbar() {
                   Home
                 </a>
 
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Menu
-                </a>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Contact us
-                </a>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Cart
-                </a>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Your Account
-                </a>
+                <NavBarButton name = "Menu" full = "False" />
+                  <NavBarButton name = "Contact Us" full = "False" />
+                  <NavBarButton name = "Cart" full = "False" />
+                  <NavBarButton name = "Your Account" full = "False" />
               </div>
             </div>
           )}
