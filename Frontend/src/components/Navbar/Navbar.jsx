@@ -1,29 +1,29 @@
-import Logo from'./restaurant.png';
+import Logo from '../download.png';
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import NavBarButton from './NavbarButton';
+import NavBarButton from '../NavbarButton/NavbarButton';
 
 
-function Navbar() {
+function Navbar() { 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
-      <nav className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
+    <div className="shadow-lg">
+      <nav className="bg-gray-800 content-center w-full p-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 justify-center content-center w-full">
+          <div className="flex items-center justify-between h-16 w-full">
+            <div className="flex items-center content-center w-full">
             
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 rounded-lg">
                 <img
-                    
                   className="h-12 w-12"
                   src={Logo}
-                  alt="Workflow"
+                  alt="Logo"
                 />
               </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+
+              <div className="hidden md:block content-center w-full">
+                <div className="ml-10 flex items-baseline space-x-4 content-center w-full">
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
                     href="#"
@@ -107,7 +107,7 @@ function Navbar() {
                   Home
                 </a>
 
-                <NavBarButton name = "Menu" full = "False" />
+                  <NavBarButton name = "Menu" full = "False" />
                   <NavBarButton name = "Contact Us" full = "False" />
                   <NavBarButton name = "Cart" full = "False" />
                   <NavBarButton name = "Your Account" full = "False" />
@@ -116,23 +116,6 @@ function Navbar() {
           )}
         </Transition>
       </nav>
-
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Home</h1>
-        </div>
-      </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">
-                hello worl
-            </div>
-          </div>
-          
-        </div>
-      </main>
     </div>
   );
 }
