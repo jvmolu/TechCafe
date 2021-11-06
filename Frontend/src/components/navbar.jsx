@@ -2,7 +2,7 @@ import Logo from'./restaurant.png';
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import NavBarButton from './navbarbuttons';
+import NavBarButton from './NavbarButton';
 
 
 function Navbar() {

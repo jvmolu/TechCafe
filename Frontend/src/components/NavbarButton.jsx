@@ -1,4 +1,4 @@
-function navBarButton(props){
+function NavBarButton(props){
     if(props.full === "True"){
         return (
             // eslint-disable-next-line jsx-a11y/anchor-is-valid
@@ -26,5 +26,4 @@ function navBarButton(props){
     
 }
 
-
-export default navBarButton;
+export default NavBarButton;
