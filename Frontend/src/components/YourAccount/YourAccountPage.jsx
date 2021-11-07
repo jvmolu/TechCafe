@@ -56,7 +56,7 @@ export default function YourAccountPage() {
     
 
     return (
-        <div className="flex p-4">
+        <div className="flex flex-col p-4">
             <AccountDetails Details={accountDetails}/>
             <UdhariQuotaDetails balance={balance} currency={currency} />
             <OrderHistory orders={orders}/>
