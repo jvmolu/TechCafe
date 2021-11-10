@@ -4,7 +4,7 @@ function NavBarButton(props){
             // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a
             href="#"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            className="text-yellow-400 hover:bg-red-600 hover:text-yellow-300 px-12 py-2 rounded-md text-sm font-medium"
             >
                 {props.name}
             </a>
@@ -17,7 +17,7 @@ function NavBarButton(props){
             // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a
                 href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="hover:bg-red-600 text-yellow-400 hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium"
             >
                 {props.name}
             </a>

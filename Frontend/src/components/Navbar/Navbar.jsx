@@ -9,7 +9,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className ="shadow-lg">
-      <nav className="bg-gray-800 content-center w-full p-4">
+      <nav className="bg-red-500 content-center w-full p-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 justify-center content-center w-full">
           <div className="flex items-center justify-between h-16 w-full">
             <div className="flex items-center content-center w-full">
@@ -27,7 +27,7 @@ function Navbar() {
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
                     href="#"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:bg-red-600 text-yellow-400 hover:text-yellow-200 px-12 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </a>
@@ -102,7 +102,7 @@ function Navbar() {
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a
                   href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-red-600 text-yellow-400 hover:text-yellow-200 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
