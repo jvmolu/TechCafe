@@ -2,13 +2,13 @@ import Logo from '../download.png';
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import NavBarButton from '../NavbarButton/NavbarButton';
+import NavBarButton from './NavbarButton';
 
 
 function Navbar() { 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="shadow-lg">
+    <div className ="shadow-lg">
       <nav className="bg-gray-800 content-center w-full p-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 justify-center content-center w-full">
           <div className="flex items-center justify-between h-16 w-full">
