@@ -12,7 +12,6 @@ function contact(){
                     <h2 className="text-4xl lg:text-7xl font-bold">Contact us!</h2>
                 </div>
                 <div className="mt-8 text-center">
-                    <title>contact us</title>
                     <img className = "xs:w-full lg:w-4/5 flex-shrink-0" src = {ContactPhoto} />
                 </div>
                 </div>
