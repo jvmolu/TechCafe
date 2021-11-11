@@ -59,9 +59,9 @@ export default function YourAccountPage() {
         <div className="flex p-2">
             <div className="flex flex-col border-2 w-2/12">
                 <a className="m-2" href="#account-details">Account Details</a>
-                <a className="m-2" href="#security-details">Login And Security Details</a>
-                <a className="m-2" href="#order-history">Order History</a>
                 <a className="m-2" href="#udhari-quota">Udhari Quota Details</a>
+                <a className="m-2" href="#order-history">Order History</a>
+                <a className="m-2" href="#security-details">Login And Security Details</a>
             </div>
             <div className="flex flex-col border-2 px-4 w-10/12">
                 <AccountDetails Details={accountDetails}/>
