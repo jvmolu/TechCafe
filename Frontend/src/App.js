@@ -8,10 +8,11 @@ function App() {
   return (
     <div>
       <Navbar/>
+      <ContactPage />
       {/* </Home> */}
       <Menu />
       <YourAccountPage />
-      <ContactPage />
+      <p>footer</p>
     </div>
   );
 }

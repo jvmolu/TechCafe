@@ -12,7 +12,7 @@ function contact(){
                     <h2 className="text-4xl lg:text-7xl font-bold">Contact us!</h2>
                 </div>
                 <div className="mt-8 text-center">
-                    <img className = "xs:w-full lg:w-4/5 flex-shrink-0" src = {ContactPhoto} />
+                    <img className = "xs:w-full lg:w-4/5 flex-shrink-0" src = {ContactPhoto} alt="Contact"/>
                 </div>
                 </div>
                 <div>
@@ -20,7 +20,6 @@ function contact(){
                     <InputBox title = "Email"/>
                     <InputBox title = "Mobile Number"/>
                     <MessageBox title = "Message" />
-                
                 <div className="mt-8">
                     <button class="bg-transparent uppercase text-sm font-semibold tracking-wide hover:bg-red-500 text-red-700 hover:text-white p-3 rounded-lg w-full py-2 px-4 border border-red-500 hover:border-transparent">
                         Submit
